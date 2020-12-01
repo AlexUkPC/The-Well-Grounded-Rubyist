@@ -4,7 +4,7 @@ class Ticket
     @date = date
   end
 
-  def set_price(amount)
+  def price=(amount)
     @price = amount
   end
 
@@ -14,7 +14,7 @@ class Ticket
 end
 
 ticket = Ticket.new("Town Hall", "2013-11-12")
-ticket.set_price(63.00)
+ticket.price=(63.00)
 puts "The ticket costs $#{"%.2f" % ticket.price}."
-ticket.set_price(72.5)
+ticket.price=(72.5)
 puts "Whoops -- it just went up. It now costs $#{"%.2f" % ticket.price} "
