@@ -9,4 +9,4 @@ end
 
 puts Temperature.c2f(100)
 
-puts Temperature.f2c(212)
+puts Temperature::f2c(212) # :: instead of . - it's the same
