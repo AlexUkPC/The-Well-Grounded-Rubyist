@@ -14,7 +14,7 @@ end
 ticket1 = Ticket.new("Town Hall", "07/08/18")
 ticket2 = Ticket.new("Conference Center", "07/08/18")
 ticket3 = Ticket.new("Town Hall", "08/09/18")
-puts "ticket1 is for an event at: #{ticket1.date} "
+puts "ticket1 is for an event on: #{ticket1.date} "
 case ticket1
 when ticket2
   puts "Same date as ticket2!"
