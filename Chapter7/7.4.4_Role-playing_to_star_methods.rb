@@ -18,10 +18,10 @@ class Person2
   end
 end
 
-david2=Person2.new
+david2 = Person2.new
 david2.name = "David"
 david2.age = 55
-david2.email= "david@wherever"
+david2.email = "david@wherever"
 array = []
 array.concat(david2)
 p array
