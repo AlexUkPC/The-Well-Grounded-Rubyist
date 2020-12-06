@@ -27,4 +27,4 @@ def open_user_file
   fh.close
 end
 
-open_user_file
+open_user_file{|x|}
