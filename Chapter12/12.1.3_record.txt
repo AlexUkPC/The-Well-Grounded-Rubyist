@@ -1,0 +1,3 @@
+This is a record
+c:/Users/alexr/OneDrive/Desktop/2020/The_Well_Grounded_Rubyist/Chapter12/12.1.3_STDIN,STDOUT,STDERR.rb:6:in `/': divided by 0 (ZeroDivisionError)
+	from c:/Users/alexr/OneDrive/Desktop/2020/The_Well_Grounded_Rubyist/Chapter12/12.1.3_STDIN,STDOUT,STDERR.rb:6:in `<main>'
